@@ -29,6 +29,9 @@ yarn run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ##说明（项目涉及的资源学习链接,自己学习时候的参考）
+
 -[国际化：i18n实现多语言](https://www.jianshu.com/p/b10b971a887e)
+
 -[Vue.filter()方法的使用](https://blog.csdn.net/csl125/article/details/80563046)
+
 -[js-cookie的用法](https://www.cnblogs.com/xuyan1/p/8421284.html)
