@@ -28,7 +28,7 @@ yarn run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-##说明（项目涉及的资源学习链接,自己学习时候的参考）
+## 说明（项目涉及的资源学习链接,自己学习时候的参考）
 
 -[国际化：i18n实现多语言](https://www.jianshu.com/p/b10b971a887e)
 
