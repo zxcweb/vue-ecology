@@ -38,17 +38,28 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - [require.context()动态批量引入文件](https://webpack.docschina.org/guides/dependency-management/#require-context)(https://www.cnblogs.com/ympjsc/p/10049943.html)
 
-- []()
+- [vue-cli3中路径别名如何配置](https://segmentfault.com/a/1190000016135314)
 
+- []
 
+*********************
 
 ## 知识点总结
-* 1 Vue.nextTick()
-```javascript
+1. Vue.nextTick()
+```js
 // 修改数据
 vm.msg = 'Hello'
 // DOM 还没有更新
 Vue.nextTick(function () {
   // DOM 更新了
 })
+```
+
+2. Vue.config.errorHandler
+```js
+Vue.config.errorHandler = function (err, vm, info) {
+  // handle error
+  // `info` 是 Vue 特定的错误信息，比如错误所在的生命周期钩子
+  // 只在 2.2.0+ 可用
+}
 ```
