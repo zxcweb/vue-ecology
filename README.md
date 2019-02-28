@@ -30,8 +30,25 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 说明（项目涉及的资源学习链接,自己学习时候的参考）
 
--[国际化：i18n实现多语言](https://www.jianshu.com/p/b10b971a887e)
+- [国际化：i18n实现多语言](https://www.jianshu.com/p/b10b971a887e)
 
--[Vue.filter()方法的使用](https://blog.csdn.net/csl125/article/details/80563046)
+- [Vue.filter()方法的使用](https://blog.csdn.net/csl125/article/details/80563046)
 
--[js-cookie的用法](https://www.cnblogs.com/xuyan1/p/8421284.html)
+- [js-cookie的用法](https://www.cnblogs.com/xuyan1/p/8421284.html)
+
+- [require.context()动态批量引入文件](https://webpack.docschina.org/guides/dependency-management/#require-context)(https://www.cnblogs.com/ympjsc/p/10049943.html)
+
+- []()
+
+
+
+## 知识点总结
+* 1 Vue.nextTick()
+```javascript
+// 修改数据
+vm.msg = 'Hello'
+// DOM 还没有更新
+Vue.nextTick(function () {
+  // DOM 更新了
+})
+```
